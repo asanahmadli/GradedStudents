@@ -9,6 +9,10 @@ public class Student {
     private String firstName;
     private String lastName;
     private List<Double> examScore;
+
+    public Student(){
+
+    };
     public Student(String firstName, String lastName, Double[] examScore){
 
         this.firstName = firstName;
